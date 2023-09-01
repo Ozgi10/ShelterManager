@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+/*import { useState, useEffect, useMemo } from "react";
 
 const useFetchAll = () => {
   const [allPets, setAllPets] = useState([]);
@@ -21,3 +21,4 @@ const useFetchAll = () => {
 };
 
 export default useFetchAll;
+*/
