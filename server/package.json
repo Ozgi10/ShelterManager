@@ -5,10 +5,11 @@
   "main": "app.cjs",
   "scripts": {
     "dev": "node --watch app.cjs",
-    "start": "node server.js",
-    "build": "npm run build"
+    "start": "node app.cjs"
   },
-  "keywords": [],
+  "keywords": [
+    "example"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

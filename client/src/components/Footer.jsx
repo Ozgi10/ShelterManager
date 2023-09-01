@@ -5,6 +5,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
 
 export default function App() {
   return (
@@ -16,22 +17,23 @@ export default function App() {
 
         <div>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="facebook-f" />
+            <AcUnitIcon />
+            {/* <MDBIcon fab icon="facebook-f" /> */}
           </a>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="twitter" />
+            {/* <MDBIcon fab icon="twitter" /> */}
           </a>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="google" />
+            {/* <MDBIcon fab icon="google" /> */}
           </a>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="instagram" />
+            {/* <MDBIcon fab icon="instagram" /> */}
           </a>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="linkedin" />
+            {/* <MDBIcon fab icon="linkedin" /> */}
           </a>
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="github" />
+            {/* <MDBIcon fab icon="github" /> */}
           </a>
         </div>
       </section>
@@ -101,20 +103,10 @@ export default function App() {
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
-              </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
-              </p>
-              <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-              </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-              </p>
+              <p>New York, NY 10012, US</p>
+              <p>info@example.com</p>
+              <p>+ 01 234 567 88</p>
+              <p>+ 01 234 567 89</p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

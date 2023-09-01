@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import MDBFooter from "./Footer";
+import "../App.css";
 
 export default function HomePage() {
   return (
