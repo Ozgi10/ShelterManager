@@ -4,7 +4,7 @@ const useFetchAll = () => {
   const [allPets, setAllPets] = useState([]);
 
   useEffect(() => {
-    fetch("https://gist.github.com/abf8f94bcff14ace1b88c7977d651a74.git")
+    fetch("./data.json")
       .then((response) => {
         if (response.status === 200) {
           setAllPets(response.data);
