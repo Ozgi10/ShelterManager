@@ -1,8 +1,13 @@
 import useFetchAll from "../hooks/useFetchAll";
 import { Link } from "react-router-dom";
+import "../App.css";
 
 export default function AllPets() {
-  const allPets = useFetchAll();
+  const { allPets, loading } = useFetchAll();
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div>

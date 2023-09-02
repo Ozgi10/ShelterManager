@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function useFetchDetail(id) {
-  const [petsDetail, setPetsDetail] = useState({});
+  const [petsDetail, setPetsDetail] = useState(null);
 
   useEffect(() => {
     if (!id) {

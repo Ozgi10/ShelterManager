@@ -1,17 +1,27 @@
-import useFetchAll from "../hooks/useFetchAll";
 import { useParams } from "react-router-dom";
+import useFetchDetail from "../hooks/useFetchDetails";
+import "../App.css";
 
-export default function PetsDetail() {
+export default function PetsDetails() {
   const { id } = useParams();
-  const petsDetail = useFetchAll(id - 1);
+  const petsDetail = useFetchDetail(id);
+
+  if (!petsDetail) {
+    return <div>Loading...</div>;
+  }
+
+  const { name, breed_group, life_span, image } = petsDetail;
 
   return (
-    <div>
-      <h2>Pet Detailed View</h2>
-      <p>Name: {petsDetail[id - 1]?.name}</p>{" "}
-      <p>Breed Group: {petsDetail[id - 1]?.breed_group?.join(",")}</p>{" "}
-      <p>Life Span: {petsDetail[id - 1]?.life_span?.join(",")}</p>{" "}
-      <p>Photo: {petsDetail[id - 1]?.url}</p>{" "}
+    <div className="pets-details-container">
+      <div className="left-side">
+        <h2>{name}</h2>
+        <p>Breed Group: {breed_group}</p>
+        <p>Life Span: {life_span}</p>
+      </div>
+      <div className="right-side">
+        <img className="pet-image" src={image.url} alt={name} />
+      </div>
     </div>
   );
 }

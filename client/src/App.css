@@ -1,1 +1,27 @@
 @import "mdb-react-ui-kit/dist/css/mdb.min.css";
+
+.pets-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: blueviolet;
+}
+
+.left-side {
+  flex: 1;
+  padding: 200px;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+}
+
+.pet-image {
+  max-width: 750px;
+}
+
+a {
+  text-decoration: none;
+}
