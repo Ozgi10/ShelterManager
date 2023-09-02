@@ -1,11 +1,16 @@
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
-} from "mdb-react-ui-kit";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GoogleIcon from "@mui/icons-material/Google";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import HomeIcon from "@mui/icons-material/Home";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import PrintIcon from "@mui/icons-material/Print";
+import DiamondIcon from "@mui/icons-material/Diamond";
 
 export default function App() {
   return (
@@ -17,23 +22,28 @@ export default function App() {
 
         <div>
           <a href="" className="me-4 text-reset">
-            <AcUnitIcon />
+            <FacebookIcon />
             {/* <MDBIcon fab icon="facebook-f" /> */}
           </a>
           <a href="" className="me-4 text-reset">
+            <TwitterIcon />
             {/* <MDBIcon fab icon="twitter" /> */}
           </a>
           <a href="" className="me-4 text-reset">
+            <GoogleIcon />
             {/* <MDBIcon fab icon="google" /> */}
           </a>
           <a href="" className="me-4 text-reset">
+            <InstagramIcon />
             {/* <MDBIcon fab icon="instagram" /> */}
           </a>
           <a href="" className="me-4 text-reset">
             {/* <MDBIcon fab icon="linkedin" /> */}
+            <LinkedInIcon />
           </a>
           <a href="" className="me-4 text-reset">
             {/* <MDBIcon fab icon="github" /> */}
+            <GitHubIcon />
           </a>
         </div>
       </section>
@@ -43,7 +53,7 @@ export default function App() {
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                <MDBIcon icon="gem" className="me-3" />
+                <DiamondIcon /> {/* <MDBIcon icon="gem" className="me-3" /> */}
                 Company name
               </h6>
               <p>
@@ -103,10 +113,19 @@ export default function App() {
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>New York, NY 10012, US</p>
-              <p>info@example.com</p>
-              <p>+ 01 234 567 88</p>
-              <p>+ 01 234 567 89</p>
+              <p>
+                {" "}
+                <HomeIcon /> New York, NY 10012, US
+              </p>
+              <p>
+                <EmailIcon /> info@example.com
+              </p>
+              <p>
+                <PhoneIcon /> + 01 234 567 88
+              </p>
+              <p>
+                <PrintIcon /> + 01 234 567 89
+              </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
