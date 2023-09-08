@@ -1,0 +1,35 @@
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Individual slides */
+.slide {
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Active slide */
+.active {
+  display: block;
+}
+
+/* Slide images */
+.slide img {
+  max-width: 100%; /* Set a maximum width for the images */
+  height: 40vh; /* Allow the height to adjust proportionally */
+}
+
+/* Slide content */
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+}

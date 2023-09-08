@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AllPets from "./Routes/AllPets";
 import PetsDetails from "./Routes/PetsDetails";
-import Homepage from "./components/HomePage";
+import Homepage from ".//Components/MainPage/HomePage";
 
 export default function App() {
   return (
