@@ -1,0 +1,65 @@
+/* DogWalkReservation.css */
+
+.reservation-container {
+  background-image: url("../../Components/img/7970457_3771700.svg"); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #fff; /* Text color for better visibility on the background image */
+  padding: 20px;
+  text-align: center;
+  min-height: 690px; /* Adjust the height as needed */
+}
+
+/* Styles for the reservation form */
+.reservation-form {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Semi-transparent background for form */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the availability list */
+.availability-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Add other styles as needed */

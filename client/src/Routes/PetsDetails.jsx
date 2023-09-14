@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import useFetchDetail from "../hooks/useFetchDetails";
+import useFetchDetail from "../Hooks/useFetchDetails";
 import "../App.css";
 
 export default function PetsDetails() {

@@ -1,0 +1,68 @@
+/* Adoption.css */
+
+/* Styling for the Adopt page container */
+.adopt-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for headings */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for form labels and inputs */
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styling for buttons */
+button.adopt-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button.adopt-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for confirmation message */
+.confirmation-message {
+  text-align: center;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.confirmation-message p {
+  margin: 0;
+  font-size: 18px;
+}

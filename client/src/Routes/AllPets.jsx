@@ -1,4 +1,4 @@
-import useFetchAll from "../hooks/useFetchAll";
+import useFetchAll from "../Hooks/useFetchAll";
 import { Link } from "react-router-dom";
 import "../App.css";
 
